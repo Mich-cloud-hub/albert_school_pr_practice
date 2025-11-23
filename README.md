@@ -1,5 +1,21 @@
 # Instructions -- Workflow Git & GitHub
 
+Cet exercice est basé sur [ce projet](https://github.com/mathurinm/github-assignment) maintenu par Mathurin Massias.
+
+## 0. Créer un personnal access token 
+
+- Allez sur [ce lien](https://github.com/settings/tokens)
+
+- Cliquez sur **Generate new token** (classic)
+
+- Donnez un nom à ce token (par ex : _cours-git__)
+
+- Cochez l'option **repo**
+
+- Cliquez sur **Generate token**
+
+- Copiez le token dans un endroit sûr (_e.g. Bitwarden, Proton_)
+
 ## 1. Forker le dépôt
 
 -   Cliquez sur **Fork** en haut à droite de la page GitHub du projet.
@@ -56,12 +72,19 @@ Vérifier : git status
 
 ## 11. En cas de conflits
 
-Mettre à jour : git pull upstream main
+Il est possible / probable qu'au moment de merger votre branche avec la branche main du repo original, votre version de students.txt ne soit pas à jour avec la version qui est sur le repo upstream (quelqu'un a merge avant vous) : vous aurez donc un conflit.
 
-Résoudre les conflits puis : git add . git commit git push
+Pour le résoudre : 
+
+- Mettre à jour votre working directory : git pull upstream main
+
+- Résoudre les conflits : depuis vs code en intégrant les modifications d'upstream dans votre working directory
+
+- Reprendre le même workflow : git add . git commit git push
 
 ## 12. Me prévenir
 
+Pour que je puisse merger votre branche.
 
 ## 13. Après le merge
 
@@ -73,3 +96,5 @@ Supprimez votre branche
 ## 14. Synchroniser votre main
 
     git pull upstream main
+
+Bravo vous venez de faire votre première Pull Request !
