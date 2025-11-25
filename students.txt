@@ -5,7 +5,7 @@ Cyprien Cotte X
 Constance Longieras
 Constantin Vuillier X
 Daphnee Stoessel
-Elie Gerwig
+Elie Gerwig X
 Edgar Guimet
 Eliott Musy
 Ilona Laulan
@@ -18,7 +18,7 @@ Michel Pellevilain
 Matheo Pradels
 Maxime Veuillotte
 Nathan Emily
-Nathan Sasson
+Nathan Sasson 
 Paul-César Bensemoun
 Pierre Leclerc X
 Pablo Pichon
